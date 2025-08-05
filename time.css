@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(197, 107, 107),rgb(57, 57,164),rgb(88, 180, 88));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock{
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#time{
+    font: 60px;
+    color: rgb(215, 215, 184);
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(0,255,239,0.6);
+
+}
